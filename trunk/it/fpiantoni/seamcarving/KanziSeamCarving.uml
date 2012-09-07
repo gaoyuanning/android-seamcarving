@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_R3wwAO-sEeGhiNRJJ4st1w" name="KanziSeamCarving">
+    <eAnnotations xmi:id="_R4LmwO-sEeGhiNRJJ4st1w" source="http://www.yatta-solutions.com/umllab/codegen/codegenDirectory">
+      <details xmi:id="_R4MN0O-sEeGhiNRJJ4st1w" key="codegenDirectory" value="/KanziSeamCarving/src"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_SPXXsO-sEeGhiNRJJ4st1w" source="com.yattasolutions.codegen.RoundTripInformation">
+      <details xmi:id="_SPXXse-sEeGhiNRJJ4st1w" key="AssociatedSourceCode" value="/KanziSeamCarving/src/it/fpiantoni/seamcarving/KanziPorting.java;2582460826/1;"/>
+    </eAnnotations>
+    <elementImport xmi:id="_SJQvsO-sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_SJQvse-sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_SJQvsu-sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_SJRWwO-sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_SJRWwe-sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_SJRWwu-sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_SJRWw--sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_SJR90O-sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_SJSk4O-sEeGhiNRJJ4st1w">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SI3HEO-sEeGhiNRJJ4st1w" name="it">
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI3uIO-sEeGhiNRJJ4st1w" name="fpiantoni">
+        <packagedElement xmi:type="uml:Package" xmi:id="_SJVBIO-sEeGhiNRJJ4st1w" name="seamcarving">
+          <packagedElement xmi:type="uml:Class" xmi:id="_SKNK4O-sEeGhiNRJJ4st1w" name="KanziPorting">
+            <generalization xmi:id="_SOCiAO-sEeGhiNRJJ4st1w" general="_SL3XwO-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOXSIO-sEeGhiNRJJ4st1w" name="MINPCT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOX5MO-sEeGhiNRJJ4st1w" value="10"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SOZHUO-sEeGhiNRJJ4st1w" name="MAXPCT" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOZHUe-sEeGhiNRJJ4st1w" value="90"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SOaVcO-sEeGhiNRJJ4st1w" name="TAG" visibility="protected" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOaVce-sEeGhiNRJJ4st1w" value="&quot;kanzi&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SOa8gO-sEeGhiNRJJ4st1w" name="originalBitmap" visibility="private" type="_SL83UO-sEeGhiNRJJ4st1w" association="_SPFD0O-sEeGhiNRJJ4st1w">
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOa8ge-sEeGhiNRJJ4st1w" value="null"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SObjke-sEeGhiNRJJ4st1w" name="pctResize" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOcKoO-sEeGhiNRJJ4st1w" value="0"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SOcxsO-sEeGhiNRJJ4st1w" name="debug" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOcxse-sEeGhiNRJJ4st1w" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SOd_0O-sEeGhiNRJJ4st1w" name="realtime" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOd_0e-sEeGhiNRJJ4st1w" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SOfN8O-sEeGhiNRJJ4st1w" name="vertical" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOfN8e-sEeGhiNRJJ4st1w" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SOf1Ae-sEeGhiNRJJ4st1w" name="horizontal" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_SOgcEO-sEeGhiNRJJ4st1w" value="false"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_SOhDIO-sEeGhiNRJJ4st1w" name="ab" visibility="package" type="_SL07gO-sEeGhiNRJJ4st1w" association="_SPGR8O-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOhqMe-sEeGhiNRJJ4st1w" name="textPctResize" visibility="package" type="_SMlJce-sEeGhiNRJJ4st1w" association="_SPG5Ae-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOi4UO-sEeGhiNRJJ4st1w" name="targetImage" visibility="package" type="_SMaKUe-sEeGhiNRJJ4st1w" association="_SPIHIe-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOkGcO-sEeGhiNRJJ4st1w" name="pctBar" visibility="package" type="_SMitMO-sEeGhiNRJJ4st1w" association="_SPJVQO-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOktgO-sEeGhiNRJJ4st1w" name="dbgCheck" visibility="package" type="_SMUqwe-sEeGhiNRJJ4st1w" association="_SPJ8Ue-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOlUke-sEeGhiNRJJ4st1w" name="rtCheck" visibility="package" type="_SMUqwe-sEeGhiNRJJ4st1w" association="_SPLKce-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOmisO-sEeGhiNRJJ4st1w" name="groupDir" visibility="package" type="_SMfp4e-sEeGhiNRJJ4st1w" association="_SPMYke-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOnw0O-sEeGhiNRJJ4st1w" name="radioVert" visibility="package" type="_SMcmke-sEeGhiNRJJ4st1w" association="_SPONwe-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOoX4e-sEeGhiNRJJ4st1w" name="radioHori" visibility="package" type="_SMcmke-sEeGhiNRJJ4st1w" association="_SPPb4O-sEeGhiNRJJ4st1w"/>
+            <ownedAttribute xmi:id="_SOpmAO-sEeGhiNRJJ4st1w" name="radioBoth" visibility="package" type="_SMcmke-sEeGhiNRJJ4st1w" association="_SPQC8e-sEeGhiNRJJ4st1w"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SOzXAO-sEeGhiNRJJ4st1w" name="onCreate" specification="_SNwOIO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SOzXAe-sEeGhiNRJJ4st1w" name="savedInstanceState" type="_SMJEke-sEeGhiNRJJ4st1w"/>
+              <language>java</language>
+              <body>super.onCreate(savedInstanceState);
+		
+		setContentView(R.layout.main);
+		
+		ab = getActionBar();
+		ab.setTitle(&quot;KanziPorting&quot;);
+		ab.setSubtitle(&quot;app dimostrativa&quot;);
+		
+		targetImage = (ImageView) findViewById(R.id.target_image);
+		textPctResize = (TextView) findViewById(R.id.pct_elab_text);
+		dbgCheck = (CheckBox) findViewById(R.id.dbg_mode_cb);
+		rtCheck = (CheckBox) findViewById(R.id.rt_mode_cb);
+		pctBar = (SeekBar) findViewById(R.id.pct_elab_bar);
+		groupDir = (RadioGroup) findViewById(R.id.group_dir);
+		radioVert = (RadioButton) findViewById(R.id.radio_vert);
+		radioHori = (RadioButton) findViewById(R.id.radio_hori);
+		radioBoth = (RadioButton) findViewById(R.id.radio_both);
+
+		pctBar.setMax(MAXPCT - MINPCT);
+		dbgCheck.setChecked(debug);
+		rtCheck.setChecked(realtime);
+		radioVert.setChecked(false);
+		radioHori.setChecked(false);
+		radioBoth.setChecked(false);
+
+		groupDir.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+
+			@Override
+			public void onCheckedChanged(RadioGroup group, int checkedId) {
+				switch (checkedId) {
+				case -1:
+					Log.v(TAG, &quot;Huh?&quot;);
+					break;
+				case R.id.radio_vert:
+					Log.v(TAG, &quot;vertical&quot;);
+					vertical = true;
+					horizontal = false;
+					radioVert.setChecked(true);
+					radioHori.setChecked(false);
+					radioBoth.setChecked(false);
+					break;
+				case R.id.radio_hori:
+					Log.v(TAG, &quot;horizontal&quot;);
+					vertical = false;
+					horizontal = true;
+					radioVert.setChecked(false);
+					radioHori.setChecked(true);
+					radioBoth.setChecked(false);
+					break;
+				case R.id.radio_both:
+					Log.v(TAG, &quot;both&quot;);
+					vertical = true;
+					horizontal = true;
+					radioVert.setChecked(false);
+					radioHori.setChecked(false);
+					radioBoth.setChecked(true);
+					break;
+				default:
+					Log.v(TAG, &quot;Huh?&quot;);
+					break;
+				}
+			}
+		});
+		
+		dbgCheck.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView,
+					boolean isChecked) {
+				debug = isChecked;
+			}
+		});
+		
+		rtCheck.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+
+			@Override
+			public void onCheckedChanged(CompoundButton buttonView,
+					boolean isChecked) {
+				realtime = isChecked;
+			}
+		});
+
+		pctBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+
+			@Override
+			public void onStopTrackingTouch(SeekBar seekBar) {
+
+			}
+
+			@Override
+			public void onStartTrackingTouch(SeekBar seekBar) {
+
+			}
+
+			@Override
+			public void onProgressChanged(SeekBar seekBar, int progress,
+					boolean fromUser) {
+				pctResize = MINPCT + progress;
+				textPctResize.setText(&quot;Ridimensiona del &quot; + pctResize + &quot;%&quot;);
+				
+				//realtime
+				if(realtime){
+					if (originalBitmap == null) {
+						Toast.makeText(getApplicationContext(),
+								&quot;Carica un'immagine!&quot;, Toast.LENGTH_SHORT).show();
+					} else if (pctResize == 0) {
+						Toast.makeText(getApplicationContext(),
+								&quot;Setta la percentuale!&quot;, Toast.LENGTH_SHORT).show();
+					} else if (!vertical &amp;&amp; !horizontal) {
+						Toast.makeText(getApplicationContext(),
+								&quot;Scegli una direzione!&quot;, Toast.LENGTH_SHORT).show();
+					} else {
+						//Toast.makeText(getApplicationContext(), &quot;Elaborazione..&quot;, Toast.LENGTH_SHORT).show();
+						Bitmap bitmap = kanziResize(originalBitmap);
+						targetImage.setImageBitmap(bitmap);
+					}
+				}
+			}
+		});
+
+		/*
+		buttonProcessImage.setOnClickListener(new Button.OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				if (originalBitmap == null) {
+					Toast.makeText(getApplicationContext(),
+							&quot;Carica un'immagine!&quot;, Toast.LENGTH_SHORT).show();
+				} else if (pctResize == 0) {
+					Toast.makeText(getApplicationContext(),
+							&quot;Setta la percentuale!&quot;, Toast.LENGTH_SHORT).show();
+				} else if (!vertical &amp;&amp; !horizontal) {
+					Toast.makeText(getApplicationContext(),
+							&quot;Scegli una direzione!&quot;, Toast.LENGTH_SHORT).show();
+				} else {
+					Toast.makeText(getApplicationContext(), &quot;Elaborazione..&quot;,
+							Toast.LENGTH_SHORT).show();
+					Bitmap bitmap = kanziResize(originalBitmap);
+					targetImage.setImageBitmap(bitmap);
+				}
+			}
+		});
+
+		buttonLoadImage.setOnClickListener(new Button.OnClickListener() {
+
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = new Intent(
+						Intent.ACTION_PICK,
+						android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+				startActivityForResult(intent, 0);
+			}
+		});
+		 */
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SOz-EO-sEeGhiNRJJ4st1w" name="onCreateOptionsMenu" specification="_SNz4gO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SOz-Ee-sEeGhiNRJJ4st1w" name="menu" type="_SMN9EO-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SOz-Eu-sEeGhiNRJJ4st1w" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>MenuInflater mMenuInflater = getMenuInflater();
+         mMenuInflater.inflate(R.menu.action, menu);
+         return true;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SO0lIO-sEeGhiNRJJ4st1w" name="onOptionsItemSelected" specification="_SN270O-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SO0lIe-sEeGhiNRJJ4st1w" name="item" type="_SMSOge-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SO0lIu-sEeGhiNRJJ4st1w" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>switch (item.getItemId()) {
+         case R.id.abLoad:
+         	Intent intent = new Intent(
+						Intent.ACTION_PICK,
+						android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+				startActivityForResult(intent, 0);
+             return true;
+         case R.id.abStart:
+         	if (originalBitmap == null) {
+					Toast.makeText(getApplicationContext(),
+							&quot;Carica un'immagine!&quot;, Toast.LENGTH_SHORT).show();
+				} else if (pctResize == 0) {
+					Toast.makeText(getApplicationContext(),
+							&quot;Setta la percentuale!&quot;, Toast.LENGTH_SHORT).show();
+				} else if (!vertical &amp;&amp; !horizontal) {
+					Toast.makeText(getApplicationContext(),
+							&quot;Scegli una direzione!&quot;, Toast.LENGTH_SHORT).show();
+				} else {
+					//Toast.makeText(getApplicationContext(), &quot;Elaborazione..&quot;, Toast.LENGTH_SHORT).show();
+					Bitmap bitmap = kanziResize(originalBitmap);
+					targetImage.setImageBitmap(bitmap);
+				}
+             return true;
+         default:
+             return super.onOptionsItemSelected(item);
+     }
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SO1MMO-sEeGhiNRJJ4st1w" name="kanziResize" specification="_SN70UO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SO1MMe-sEeGhiNRJJ4st1w" name="bmp" type="_SL83UO-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SO1MMu-sEeGhiNRJJ4st1w" type="_SL83UO-sEeGhiNRJJ4st1w" direction="return"/>
+              <language>java</language>
+              <body>int w = bmp.getWidth();
+		int h = bmp.getHeight();
+
+		int[] src = new int[w * h];
+		int[] dst = new int[w * h];
+
+		bmp = bmp.copy(Config.RGB_565, false);//serve?? eccome!! mongolfiere.jpg non funziona altrimenti
+		
+		bmp.getPixels(src, 0, w, 0, 0, w, h);
+
+		ContextResizer effect = null;
+
+		Arrays.fill(dst, 0);
+
+		//int newW = w;
+		int newH = h;
+		int difW = 0;
+		int difH = 0;
+
+		if (vertical == true) {
+			difW = w * pctResize / 100;
+			//newW = w - difW;
+		}
+		if (horizontal == true) {
+			difH = h * pctResize / 100;
+			newH = h - difH;
+		}
+		
+		if (vertical &amp;&amp; !horizontal) {
+			effect = new ContextResizer(w, h, 0, w, ContextResizer.VERTICAL,
+					ContextResizer.SHRINK, w, difW);
+		}
+		if (horizontal) {
+			if (vertical) {
+				effect = new ContextResizer(w, h, 0, w,
+						ContextResizer.VERTICAL, ContextResizer.SHRINK, w, difW);
+				effect.setDebug(debug);
+				effect.apply(src, dst);
+				src = dst;
+				effect = null;
+				effect = new ContextResizer(w, h, 0, w,
+						ContextResizer.HORIZONTAL, ContextResizer.SHRINK, h,
+						difH);
+			} else {
+				effect = new ContextResizer(w, h, 0, w,
+						ContextResizer.HORIZONTAL, ContextResizer.SHRINK, h,
+						difH);
+			}
+		}
+		effect.setDebug(debug);
+		effect.apply(src, dst);
+
+		/*
+		
+		int iter = 1;
+		
+		long after = 0;
+		long before = 0;
+		long sum = 0;
+		
+		for (int ii = 0; ii &lt; iter; ii++) {
+			before = System.nanoTime();
+
+			if (vertical &amp;&amp; !horizontal) {
+				effect = new ContextResizer(w, h, 0, w, ContextResizer.VERTICAL,
+						ContextResizer.SHRINK, w, difW);
+			}
+			if (horizontal) {
+				if (vertical) {
+					effect = new ContextResizer(w, h, 0, w,
+							ContextResizer.VERTICAL, ContextResizer.SHRINK, w, difW);
+					effect.setDebug(debug);
+					effect.apply(src, dst);
+					src = dst;
+					effect = null;
+					effect = new ContextResizer(w, h, 0, w,
+							ContextResizer.HORIZONTAL, ContextResizer.SHRINK, h,
+							difH);
+				} else {
+					effect = new ContextResizer(w, h, 0, w,
+							ContextResizer.HORIZONTAL, ContextResizer.SHRINK, h,
+							difH);
+				}
+			}
+			effect.setDebug(debug);
+			effect.apply(src, dst);
+
+			after = System.nanoTime();
+			sum += (after - before);
+
+		}
+		
+		*/
+	
+		//Log.i(&quot;Speedtest&quot;,&quot;elapsed [ms]: &quot; + sum / 1000000 + &quot; (&quot; + iter + &quot; iterations)&quot;);
+		
+		if (horizontal &amp;&amp; vertical &amp;&amp; !debug) {
+			int goodPixel = newH;
+			for (int i = (goodPixel * w); i &lt; dst.length; i++) {
+				dst[i] = 0;
+			}
+		}
+		Bitmap resizedBitmap = Bitmap.createBitmap(dst, w, h, Config.RGB_565);
+
+		return resizedBitmap;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SO1zQO-sEeGhiNRJJ4st1w" name="onActivityResult" specification="_SN9pgO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SO1zQe-sEeGhiNRJJ4st1w" name="requestCode">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SO1zQu-sEeGhiNRJJ4st1w" name="resultCode">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SO1zQ--sEeGhiNRJJ4st1w" name="data" type="_SL50AO-sEeGhiNRJJ4st1w"/>
+              <language>java</language>
+              <body>super.onActivityResult(requestCode, resultCode, data);
+
+		if (resultCode == RESULT_OK) {
+			
+			Uri targetUri = data.getData();
+			//textTargetUri.setText(targetUri.toString());
+			
+			/*
+			 * 
+			/////////
+			 try {
+				 originalBitmap = BitmapFactory.decodeStream(getContentResolver().openInputStream(targetUri));
+			  targetImage.setImageBitmap(originalBitmap);
+			 } catch (FileNotFoundException e) {
+			  // TODO Auto-generated catch block
+			  e.printStackTrace();
+			 }
+			 /////////
+			 
+			*/
+			
+			//////////
+			
+			Toast.makeText( getApplicationContext(), &quot;ImageView: &quot; + targetImage.getWidth() + &quot; x &quot; + targetImage.getHeight(), Toast.LENGTH_LONG).show();
+
+			originalBitmap = decodeSampledBitmapFromUri(targetUri, targetImage.getWidth(), targetImage.getHeight());
+
+			if (originalBitmap == null) {
+				Toast.makeText(getApplicationContext(), &quot;the image data could not be decoded&quot;, Toast.LENGTH_LONG).show();
+
+			} else {
+				Toast.makeText( getApplicationContext(), &quot;Decoded Bitmap: &quot; + originalBitmap.getWidth() + &quot; x &quot; + originalBitmap.getHeight(), Toast.LENGTH_LONG).show();
+				targetImage.setImageBitmap(originalBitmap);
+			}
+			
+			///////////
+			
+			
+		}
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SO2aUO-sEeGhiNRJJ4st1w" name="calculateInSampleSize" specification="_SM7Hse-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SO2aUe-sEeGhiNRJJ4st1w" name="options" type="_SM4EYO-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SO2aUu-sEeGhiNRJJ4st1w" name="reqWidth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SO2aU--sEeGhiNRJJ4st1w" name="reqHeight">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SO2aVO-sEeGhiNRJJ4st1w" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// Raw height and width of image
+		final int height = options.outHeight;
+		final int width = options.outWidth;
+		int inSampleSize = 1;
+
+		if (height > reqHeight || width > reqWidth) {
+			if (width > height) {
+				inSampleSize = Math.round((float) height / (float) reqHeight);
+			} else {
+				inSampleSize = Math.round((float) width / (float) reqWidth);
+			}
+		}
+		return inSampleSize;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SO3BYO-sEeGhiNRJJ4st1w" name="decodeSampledBitmapFromUri" specification="_SOBT4O-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SO3BYe-sEeGhiNRJJ4st1w" name="uri" type="_SMGoUe-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SO3BYu-sEeGhiNRJJ4st1w" name="reqWidth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SO3BY--sEeGhiNRJJ4st1w" name="reqHeight">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SO3BZO-sEeGhiNRJJ4st1w" type="_SL83UO-sEeGhiNRJJ4st1w" direction="return"/>
+              <language>java</language>
+              <body>Bitmap bm = null;
+
+		try {
+			// First decode with inJustDecodeBounds=true to check dimensions
+			final BitmapFactory.Options options = new BitmapFactory.Options();
+			options.inJustDecodeBounds = true;
+			BitmapFactory.decodeStream(getContentResolver()
+					.openInputStream(uri), null, options);
+
+			// Calculate inSampleSize
+			options.inSampleSize = calculateInSampleSize(options, reqWidth,
+					reqHeight);
+
+			// Decode bitmap with inSampleSize set
+			options.inJustDecodeBounds = false;
+			bm = BitmapFactory.decodeStream(getContentResolver()
+					.openInputStream(uri), null, options);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			Toast.makeText(getApplicationContext(), e.toString(),
+					Toast.LENGTH_LONG).show();
+		}
+
+		return bm;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_SM7Hse-sEeGhiNRJJ4st1w" name="calculateInSampleSize" isStatic="true" method="_SO2aUO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SM7uwO-sEeGhiNRJJ4st1w" name="options" type="_SM4EYO-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SM7uwe-sEeGhiNRJJ4st1w" name="reqWidth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SM7uwu-sEeGhiNRJJ4st1w" name="reqHeight">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SM8V0O-sEeGhiNRJJ4st1w" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_SNwOIO-sEeGhiNRJJ4st1w" name="onCreate" method="_SOzXAO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SNwOIe-sEeGhiNRJJ4st1w" name="savedInstanceState" type="_SMJEke-sEeGhiNRJJ4st1w"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_SNz4gO-sEeGhiNRJJ4st1w" name="onCreateOptionsMenu" method="_SOz-EO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SNz4ge-sEeGhiNRJJ4st1w" name="menu" type="_SMN9EO-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SN0fkO-sEeGhiNRJJ4st1w" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_SN270O-sEeGhiNRJJ4st1w" name="onOptionsItemSelected" method="_SO0lIO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SN270e-sEeGhiNRJJ4st1w" name="item" type="_SMSOge-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SN3i4O-sEeGhiNRJJ4st1w" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_SN70UO-sEeGhiNRJJ4st1w" name="kanziResize" visibility="protected" method="_SO1MMO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SN70Ue-sEeGhiNRJJ4st1w" name="bmp" type="_SL83UO-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SN70Uu-sEeGhiNRJJ4st1w" type="_SL83UO-sEeGhiNRJJ4st1w" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_SN9pgO-sEeGhiNRJJ4st1w" name="onActivityResult" visibility="protected" method="_SO1zQO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SN-QkO-sEeGhiNRJJ4st1w" name="requestCode">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SN-Qke-sEeGhiNRJJ4st1w" name="resultCode">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SN-Qku-sEeGhiNRJJ4st1w" name="data" type="_SL50AO-sEeGhiNRJJ4st1w"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_SOBT4O-sEeGhiNRJJ4st1w" name="decodeSampledBitmapFromUri" method="_SO3BYO-sEeGhiNRJJ4st1w">
+              <ownedParameter xmi:id="_SOBT4e-sEeGhiNRJJ4st1w" name="uri" type="_SMGoUe-sEeGhiNRJJ4st1w"/>
+              <ownedParameter xmi:id="_SOBT4u-sEeGhiNRJJ4st1w" name="reqWidth">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SOBT4--sEeGhiNRJJ4st1w" name="reqHeight">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_SOB68O-sEeGhiNRJJ4st1w" type="_SL83UO-sEeGhiNRJJ4st1w" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPFD0O-sEeGhiNRJJ4st1w" name="" memberEnd="_SPFD0e-sEeGhiNRJJ4st1w _SOa8gO-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPFD0e-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPFD0O-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPGR8O-sEeGhiNRJJ4st1w" name="" memberEnd="_SPGR8e-sEeGhiNRJJ4st1w _SOhDIO-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPGR8e-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPGR8O-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPG5Ae-sEeGhiNRJJ4st1w" name="" memberEnd="_SPG5Au-sEeGhiNRJJ4st1w _SOhqMe-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPG5Au-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPG5Ae-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPIHIe-sEeGhiNRJJ4st1w" name="" memberEnd="_SPIHIu-sEeGhiNRJJ4st1w _SOi4UO-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPIHIu-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPIHIe-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPJVQO-sEeGhiNRJJ4st1w" name="" memberEnd="_SPJVQe-sEeGhiNRJJ4st1w _SOkGcO-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPJVQe-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPJVQO-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPJ8Ue-sEeGhiNRJJ4st1w" name="" memberEnd="_SPJ8Uu-sEeGhiNRJJ4st1w _SOktgO-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPJ8Uu-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPJ8Ue-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPLKce-sEeGhiNRJJ4st1w" name="" memberEnd="_SPLKcu-sEeGhiNRJJ4st1w _SOlUke-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPLKcu-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPLKce-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPMYke-sEeGhiNRJJ4st1w" name="" memberEnd="_SPMYku-sEeGhiNRJJ4st1w _SOmisO-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPMYku-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPMYke-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPONwe-sEeGhiNRJJ4st1w" name="" memberEnd="_SPONwu-sEeGhiNRJJ4st1w _SOnw0O-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPONwu-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPONwe-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPPb4O-sEeGhiNRJJ4st1w" name="" memberEnd="_SPPb4e-sEeGhiNRJJ4st1w _SOoX4e-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPPb4e-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPPb4O-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_SPQC8e-sEeGhiNRJJ4st1w" name="" memberEnd="_SPQC8u-sEeGhiNRJJ4st1w _SOpmAO-sEeGhiNRJJ4st1w">
+            <ownedEnd xmi:id="_SPQC8u-sEeGhiNRJJ4st1w" name="" type="_SKNK4O-sEeGhiNRJJ4st1w" association="_SPQC8e-sEeGhiNRJJ4st1w"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SI8moO-sEeGhiNRJJ4st1w" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI8moe-sEeGhiNRJJ4st1w" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SLs_sO-sEeGhiNRJJ4st1w" name="FileNotFoundException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI9NsO-sEeGhiNRJJ4st1w" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SLwDAO-sEeGhiNRJJ4st1w" name="Arrays"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SI9Nse-sEeGhiNRJJ4st1w" name="kanzi">
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI9Nsu-sEeGhiNRJJ4st1w" name="filter">
+        <packagedElement xmi:type="uml:Package" xmi:id="_SI9Ns--sEeGhiNRJJ4st1w" name="seam">
+          <packagedElement xmi:type="uml:Class" xmi:id="_SLyfQe-sEeGhiNRJJ4st1w" name="ContextResizer"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SI9NtO-sEeGhiNRJJ4st1w" name="android">
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI90wO-sEeGhiNRJJ4st1w" name="app">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SL07gO-sEeGhiNRJJ4st1w" name="ActionBar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SL3XwO-sEeGhiNRJJ4st1w" name="Activity"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI90we-sEeGhiNRJJ4st1w" name="content">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SL50AO-sEeGhiNRJJ4st1w" name="Intent"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI90wu-sEeGhiNRJJ4st1w" name="graphics">
+        <packagedElement xmi:type="uml:Package" xmi:id="_SI-b0O-sEeGhiNRJJ4st1w" name="Bitmap">
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_SMEMEO-sEeGhiNRJJ4st1w" name="Config"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SL83UO-sEeGhiNRJJ4st1w" name="Bitmap"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMAhsO-sEeGhiNRJJ4st1w" name="BitmapFactory"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI-b0e-sEeGhiNRJJ4st1w" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMGoUe-sEeGhiNRJJ4st1w" name="Uri"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI-b0u-sEeGhiNRJJ4st1w" name="os">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMJEke-sEeGhiNRJJ4st1w" name="Bundle"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI_C4O-sEeGhiNRJJ4st1w" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMLg0O-sEeGhiNRJJ4st1w" name="Log"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI_C4e-sEeGhiNRJJ4st1w" name="view">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_SMN9EO-sEeGhiNRJJ4st1w" name="Menu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMQZUO-sEeGhiNRJJ4st1w" name="MenuInflater"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_SMSOge-sEeGhiNRJJ4st1w" name="MenuItem"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SI_p8O-sEeGhiNRJJ4st1w" name="widget">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMUqwe-sEeGhiNRJJ4st1w" name="CheckBox"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMXHAe-sEeGhiNRJJ4st1w" name="CompoundButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMaKUe-sEeGhiNRJJ4st1w" name="ImageView"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMcmke-sEeGhiNRJJ4st1w" name="RadioButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMfp4e-sEeGhiNRJJ4st1w" name="RadioGroup"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMitMO-sEeGhiNRJJ4st1w" name="SeekBar"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMlJce-sEeGhiNRJJ4st1w" name="TextView"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SMoMwe-sEeGhiNRJJ4st1w" name="Toast"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SJTL8O-sEeGhiNRJJ4st1w" name="BitmapFactory">
+      <packagedElement xmi:type="uml:Class" xmi:id="_SM4EYO-sEeGhiNRJJ4st1w" name="Options"/>
+    </packagedElement>
+    <profileApplication xmi:id="_R4M04O-sEeGhiNRJJ4st1w">
+      <eAnnotations xmi:id="_R4ODAO-sEeGhiNRJJ4st1w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_R4P4MO-sEeGhiNRJJ4st1w" base_Package="_R3wwAO-sEeGhiNRJJ4st1w">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_SLu04O-sEeGhiNRJJ4st1w" base_Element="_SLs_sO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SLyfQO-sEeGhiNRJJ4st1w" base_Element="_SLwDAO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SL0UcO-sEeGhiNRJJ4st1w" base_Element="_SLyfQe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SL2wsO-sEeGhiNRJJ4st1w" base_Element="_SL07gO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SL5M8O-sEeGhiNRJJ4st1w" base_Element="_SL3XwO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SL8QQO-sEeGhiNRJJ4st1w" base_Element="_SL50AO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SL_6oO-sEeGhiNRJJ4st1w" base_Element="_SL83UO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMDlAO-sEeGhiNRJJ4st1w" base_Element="_SMAhsO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMGoUO-sEeGhiNRJJ4st1w" base_Element="_SMEMEO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMJEkO-sEeGhiNRJJ4st1w" base_Element="_SMGoUe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMK5wO-sEeGhiNRJJ4st1w" base_Element="_SMJEke-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMNWAO-sEeGhiNRJJ4st1w" base_Element="_SMLg0O-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMPyQO-sEeGhiNRJJ4st1w" base_Element="_SMN9EO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMSOgO-sEeGhiNRJJ4st1w" base_Element="_SMQZUO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMUqwO-sEeGhiNRJJ4st1w" base_Element="_SMSOge-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMXHAO-sEeGhiNRJJ4st1w" base_Element="_SMUqwe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMaKUO-sEeGhiNRJJ4st1w" base_Element="_SMXHAe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMcmkO-sEeGhiNRJJ4st1w" base_Element="_SMaKUe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMfp4O-sEeGhiNRJJ4st1w" base_Element="_SMcmke-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMiGIO-sEeGhiNRJJ4st1w" base_Element="_SMfp4e-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMlJcO-sEeGhiNRJJ4st1w" base_Element="_SMitMO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMoMwO-sEeGhiNRJJ4st1w" base_Element="_SMlJce-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SMqpAO-sEeGhiNRJJ4st1w" base_Element="_SMoMwe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SM7HsO-sEeGhiNRJJ4st1w" base_Element="_SM4EYO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SNw1MO-sEeGhiNRJJ4st1w" base_Element="_SNwOIO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Annotations xmi:id="_SNyqYO-sEeGhiNRJJ4st1w" base_Element="_SNwOIO-sEeGhiNRJJ4st1w">
+    <annotations xmi:id="_SNyqYe-sEeGhiNRJJ4st1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SN1GoO-sEeGhiNRJJ4st1w" base_Element="_SNz4gO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Annotations xmi:id="_SN1tsO-sEeGhiNRJJ4st1w" base_Element="_SNz4gO-sEeGhiNRJJ4st1w">
+    <annotations xmi:id="_SN1tse-sEeGhiNRJJ4st1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SN4J8O-sEeGhiNRJJ4st1w" base_Element="_SN270O-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Annotations xmi:id="_SN4xAO-sEeGhiNRJJ4st1w" base_Element="_SN270O-sEeGhiNRJJ4st1w">
+    <annotations xmi:id="_SN5YEO-sEeGhiNRJJ4st1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SN-3oO-sEeGhiNRJJ4st1w" base_Element="_SN9pgO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Annotations xmi:id="_SOAFwO-sEeGhiNRJJ4st1w" base_Element="_SN9pgO-sEeGhiNRJJ4st1w">
+    <annotations xmi:id="_SOAFwe-sEeGhiNRJJ4st1w" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOYgQO-sEeGhiNRJJ4st1w" base_Element="_SOXSIO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOZuYO-sEeGhiNRJJ4st1w" base_Element="_SOZHUO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SObjkO-sEeGhiNRJJ4st1w" base_Element="_SOa8gO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOcKoe-sEeGhiNRJJ4st1w" base_Element="_SObjke-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOdYwO-sEeGhiNRJJ4st1w" base_Element="_SOcxsO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOem4O-sEeGhiNRJJ4st1w" base_Element="_SOd_0O-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOf1AO-sEeGhiNRJJ4st1w" base_Element="_SOfN8O-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOgcEe-sEeGhiNRJJ4st1w" base_Element="_SOf1Ae-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOhqMO-sEeGhiNRJJ4st1w" base_Element="_SOhDIO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOiRQO-sEeGhiNRJJ4st1w" base_Element="_SOhqMe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOjfYO-sEeGhiNRJJ4st1w" base_Element="_SOi4UO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOkGce-sEeGhiNRJJ4st1w" base_Element="_SOkGcO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOlUkO-sEeGhiNRJJ4st1w" base_Element="_SOktgO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOl7oO-sEeGhiNRJJ4st1w" base_Element="_SOlUke-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOnJwO-sEeGhiNRJJ4st1w" base_Element="_SOmisO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOoX4O-sEeGhiNRJJ4st1w" base_Element="_SOnw0O-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOo-8O-sEeGhiNRJJ4st1w" base_Element="_SOoX4e-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SOqNEO-sEeGhiNRJJ4st1w" base_Element="_SOpmAO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPFq4O-sEeGhiNRJJ4st1w" base_Element="_SPFD0O-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPG5AO-sEeGhiNRJJ4st1w" base_Element="_SPGR8O-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPIHIO-sEeGhiNRJJ4st1w" base_Element="_SPG5Ae-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPIuMO-sEeGhiNRJJ4st1w" base_Element="_SPIHIe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPJ8UO-sEeGhiNRJJ4st1w" base_Element="_SPJVQO-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPLKcO-sEeGhiNRJJ4st1w" base_Element="_SPJ8Ue-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPMYkO-sEeGhiNRJJ4st1w" base_Element="_SPLKce-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPONwO-sEeGhiNRJJ4st1w" base_Element="_SPMYke-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPO00O-sEeGhiNRJJ4st1w" base_Element="_SPONwe-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPQC8O-sEeGhiNRJJ4st1w" base_Element="_SPPb4O-sEeGhiNRJJ4st1w"/>
+  <UMLLabProfile:Reference xmi:id="_SPRREO-sEeGhiNRJJ4st1w" base_Element="_SPQC8e-sEeGhiNRJJ4st1w"/>
+</xmi:XMI>
