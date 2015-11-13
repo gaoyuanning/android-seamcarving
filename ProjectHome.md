@@ -1,0 +1,1 @@
+A small application for Android which provides the Seam Carving resizing algorithm.
